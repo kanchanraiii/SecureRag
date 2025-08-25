@@ -3,7 +3,7 @@ import random
 from faker import Faker
 
 fake = Faker("en_IN")  # Indian education context for realism
-NUM_RECORDS = 2000
+NUM_RECORDS = 20000
 OUTPUT_FILE = "education_dataset.jsonl"
 
 def random_noise(text):

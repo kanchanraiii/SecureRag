@@ -1,1 +1,6 @@
-
+faiss-cpu==1.7.4
+numpy==1.26.4
+sentence-transformers==2.7.0
+torch==2.2.2
+transformers==4.40.1
+jsonlines==4.0.0 
