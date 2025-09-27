@@ -22,7 +22,7 @@ This project investigates critical vulnerabilities in standard RAG pipelines and
 
 * **Synthetic Data Generation:** A custom pipeline to generate large-scale, realistic user data (60,000+ JSONL entries) using the `Faker` library, providing a safe and effective testbed.
 * **Dynamic PII Guardrail:** Implementation of an output-level security filter using `Microsoft Presidio` to detect and redact a wide range of PII entities in real-time before they reach the end-user.
-* **Multi-LLM & Retriever Backend:** A flexible architecture designed to benchmark and integrate various Large Language Models (Gemini 1.5 Flash, Mistral models) and sentence transformers (BERT variants, MiniLM), allowing for analysis of security-performance trade-offs.
+* **Multi-LLM & Retriever Backend:** A flexible architecture designed to benchmark and integrate various Large Language Models (Gemini 2.5 Flash, Mistral models) and sentence transformers (BERT variants, MiniLM), allowing for analysis of security-performance trade-offs.
 * **Advanced Robustness Testing:** A suite of custom evaluation scripts to rigorously test the security and reliability of the RAG pipeline against known failure modes.
 
 ## 3. Technology Stack
